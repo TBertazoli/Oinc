@@ -1,5 +1,5 @@
 {
-  "name": "stacks-on-stacks",
+  "name": "oinc",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -18,16 +18,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emsaw721/stacks-on-stacks.git"
+    "url": "git+https://github.com/TBertazoli/Oinc"
   },
   "keywords": [],
   "bugs": {
     "url": "https://github.com/emsaw721/stacks-on-stacks/issues"
   },
   "homepage": "https://github.com/emsaw721/stacks-on-stacks#readme",
-  "dependencies": {    
+  "dependencies": {
     "jwt-decode": "^3.1.2",
-    "react-bootstrap": "^2.7.0",    
+    "mongodb": "^5.7.0",
+    "react-bootstrap": "^2.7.0",
     "react-router-dom": "^6.7.0"
   }
 }
