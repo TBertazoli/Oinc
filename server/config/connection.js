@@ -1,11 +1,11 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/Oink!', {
+console.log("process.env.MONGODB_URI", process.env.MONGODB_URI);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/Oink!", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
-  useFindAndModify: false
+  useFindAndModify: false,
 });
 
 module.exports = mongoose.connection;
