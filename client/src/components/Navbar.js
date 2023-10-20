@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Modal, Tab, Nav } from 'react-bootstrap';
 import './components.css';
-import Navpig from './oinknav.png';
 import LoginForm from './LoginForm';
 import SignUpForm from './SignupForm'
 import Auth from '../utils/auth';
